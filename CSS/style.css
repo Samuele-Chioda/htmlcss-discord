@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+
 header{
     background-color: #255ee9;
     padding: 1.2rem 4rem 1rem 10rem;
@@ -38,6 +44,8 @@ button{
     border-radius: 30px;
     border: none;
     background-color: white;
+    font-weight: bold;
+
 }
 
 
@@ -45,13 +53,14 @@ button{
     margin-top: 4rem;
     background-color: white;
     color: black;
+    font-weight: bold;
 }
 
 .button_black{
     background-color:black;
     margin:2rem;
     color: white;
-
+    font-weight: bold;
 }
 
 .jumbo h1{
@@ -73,15 +82,31 @@ button{
 .button_blue{
     background-color: #255ee9;
     color: white;
+    font-weight: bold;
 }
 
 .center_section{
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 2rem auto;
     flex-direction: column;
 }
 
+.description{
+    max-width: 40%;
+}
+
+.image{
+    max-width: 60%;
+
+}
+
 .color_footer{
-    color: black;
+    color: blue;
+    padding: 1rem;
+    font-weight: bold;
 }
 
 .second_footer{
@@ -101,15 +126,25 @@ padding:1.5rem 8rem;
     text-align: center;
 }
 
+/* selettore per classe con specificità */
+
 .button_blue.final{
     margin-top: 2rem;
+    font-weight: bold;
+
 }
 
 .ul_footer{
-    display: flex;
-    justify-content: space-between;
+    display:flex;
     color: white;
     background-color:grey;
-    align-items: center;
+    align-items:center;
     flex-direction: column;
 }
+
+
+.loghini{
+    color:black;
+}
+
+
