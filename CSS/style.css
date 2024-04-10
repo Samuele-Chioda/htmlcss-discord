@@ -45,15 +45,17 @@ button{
     border: none;
     background-color: white;
     font-weight: bold;
+    height: 3rem;
 
 }
 
 
 .button_white{
-    margin-top: 4rem;
+    margin-top: 1rem;
     background-color: white;
     color: black;
     font-weight: bold;
+    height: 3rem;
 }
 
 .button_black{
@@ -61,14 +63,15 @@ button{
     margin:2rem;
     color: white;
     font-weight: bold;
+    height: 3rem;
 }
 
 .jumbo h1{
     font-size: 2.5rem;
+    padding-top: 5rem;
 }
 
 .jumbo_section{
-    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,20 +79,20 @@ button{
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
-    padding-bottom:5rem;
+    text-align: center;
 }
 
 .button_blue{
     background-color: #255ee9;
     color: white;
     font-weight: bold;
+    height: 3rem;
+
 }
 
 .center_section{
-    display: flex;
-    flex-wrap: nowrap;
+    display:flex;
     justify-content: center;
-    max-width: 1200px;
     margin: 2rem auto;
     flex-direction: column;
 }
@@ -131,20 +134,30 @@ padding:1.5rem 8rem;
 .button_blue.final{
     margin-top: 2rem;
     font-weight: bold;
+    height: 3rem;
 
+
+}
+
+.footer_nav{
+    display:flex;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .ul_footer{
-    display:flex;
     color: white;
     background-color:grey;
-    align-items:center;
     flex-direction: column;
+    align-items: center;
+
 }
 
+.footer_nav{
+    
+}
 
 .loghini{
     color:black;
 }
-
 
