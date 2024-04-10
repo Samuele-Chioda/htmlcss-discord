@@ -15,17 +15,6 @@ header{
     padding: 1.2rem 4rem 1rem 10rem;
 }
 
-h1{
-    padding:2rem;
-}
-
-.header,ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-}
-
 header button{
     color: black;
 }
@@ -46,9 +35,33 @@ button{
     background-color: white;
     font-weight: bold;
     height: 3rem;
-
 }
 
+h1{
+    font-weight: bold;
+}
+
+.description1{
+    max-width: 30%;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.jumbo h1{
+    padding:0.5rem;
+}
+
+.header,ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.bottoni-jumbo{
+    padding: 2rem;
+
+}
 
 .button_white{
     margin-top: 1rem;
@@ -72,14 +85,18 @@ button{
 }
 
 .jumbo_section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-image: url(../img/jumbo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
-    text-align: center;
+}
+
+.jumbo-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .button_blue{
@@ -105,15 +122,22 @@ button{
 
 .description{
     max-width: 40%;
-    padding-top:2rem ;
+    padding:6rem ;
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 .description_final{
     text-align: center;
+    padding: 6rem;
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 .image{
     max-width: 60%;
+    margin:0 auto;
+    padding: 4rem;
 
 }
 
