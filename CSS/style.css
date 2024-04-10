@@ -91,14 +91,25 @@ button{
 }
 
 .center_section{
-    display:flex;
     justify-content: center;
     margin: 2rem auto;
-    flex-direction: column;
+    max-width: 1200px;
+}
+
+.div-main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
 }
 
 .description{
     max-width: 40%;
+    padding-top:2rem ;
+}
+
+.description_final{
+    text-align: center;
 }
 
 .image{
